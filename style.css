@@ -1,0 +1,169 @@
+
+.rightexp{
+	color: white;
+	background-color: black;
+	width: 94%;
+	height:600px;
+	padding:38px;
+	text-align: center;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	display: inline-block; */
+}
+.mimi{
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+.papa,.papa1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	height:698px;
+	width: 102%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	font-size: 20px;
+}
+.lab2{
+	/* margin-left: -170px; */
+	color: #cf755e;
+}
+
+.lab3{
+	/* margin-left: -110px; */
+}
+input{
+	/* margin-right: 40px; */
+	border-left: none;
+	border-right: none;
+	border-top:none; 
+	background-color: black;
+	width: 160px;
+	/* margin-left:-180px;
+	margin-top: -300px; */
+	width: 258px;
+}
+.input2{
+	border-left: none;
+	border-right: none;
+	border-top:none; 
+	background-color: black;
+	border-color: #cf755e;
+	/* margin-right: -178px; */
+
+
+}
+
+.input3{
+	border-left: none;
+	border-right: none;
+	border-top:none; 
+	background-color: black;
+	/* margin-left: 30px; */
+}
+
+.input1{
+	/* margin-left: 30px; */
+}
+.lab1,.lab2{
+	position:relative;
+	right: 100px;
+}
+.lab3{
+	position:relative;
+	right: 76px;
+}
+.label1{
+	position:relative;
+	right: 90px;
+}
+
+select{
+	border-left: none;
+	border-right: none;
+	border-top:none; 
+	border-color: white;
+	width: 260px;
+	background-color: black;
+	color: white;
+
+}
+.p1{
+	/* margin-right: 80px; */
+}
+.p2{
+	color:  #cf755e;
+}
+.mimi{
+
+}
+button{
+	border-style: none;
+	color: white;
+	background-color: #cf755e;;
+	height: 40px;
+	width: 90px;
+	/* display: flex;
+	justify-content: flex-end; */
+}
+.button1{
+	width:30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: white;
+	color: black;
+}
+ .button2 {
+	width: 100px;
+	height: 40px;
+	border-radius: 30px;
+	background-color:#cf755e;
+	color: black;
+
+}
+ .button2 .span1	{
+	width: 120px;
+	height: 20px;
+	border-radius: 30px;
+	background-color:black;
+	color:  white;
+	/* margin: 5px; */
+	padding: 10px;
+}
+
+.div1{
+		display:inline-flex;
+		/* margin-left: 40px; */
+		grid-gap: 13px;
+
+}
+.div2{
+	display:inline-flex;
+	/* margin-left: -160px; */
+}
+	
+@media screen and (max-width:600px){
+	.mimi {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:758px){
+	.mimi {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media screen and (max-width:900px){
+	.mimi {
+		display: flex;
+		flex-direction: column;
+}
+}
